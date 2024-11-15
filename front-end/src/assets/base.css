@@ -1,0 +1,79 @@
+/* 
+:root {
+  --color-primary: #0c345f; 
+  --color-secondary: #f8b600; 
+  --color-green: #61b668; 
+  --color-red: #e57373;
+}
+
+.card {
+  background-color: var(--color-background-soft);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+  max-width: 320px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--color-heading);
+  margin-bottom: 0.5rem;
+}
+
+.card .tags {
+  margin-bottom: 1rem;
+}
+
+.card .tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.5rem;
+  border-radius: 5px;
+  background-color: var(--color-secondary);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.card .green-tag {
+  background-color: var(--color-green);
+}
+
+.card .red-tag {
+  background-color: var(--color-red);
+}
+
+.card .fund-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.card .fund-details p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: var(--color-text);
+}
+
+.card .highlight {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-heading);
+}
+
+.card a {
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+} */
